@@ -43,4 +43,4 @@ D:\Code Projects\ValorGuides\bin\Release\System.Numerics.Vectors.xml
 D:\Code Projects\ValorGuides\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
 D:\Code Projects\ValorGuides\bin\Release\System.Threading.Tasks.Extensions.xml
 D:\Code Projects\ValorGuides\bin\Release\System.ValueTuple.xml
-D:\Code Projects\ValorGuides\obj\Release\ValorGuides.csproj.AssemblyReference.cache
+D:\Code Projects\ValorGuides\bin\Release\Siticone.Desktop.UI.dll

@@ -9,6 +9,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Threading;
+//download rat
 
 namespace ValorGuides
 {
@@ -99,6 +100,12 @@ namespace ValorGuides
 		//Rating System with Webhooks
 		private async void bunifuRating1_ValueChanged(object sender, Bunifu.UI.WinForms.BunifuRating.ValueChangedEventArgs e)
 		{
+			//fixx cixx'ss shityy codee
+			if (File.Exists(rating1) || File.Exists(rating2) || File.Exists(rating3) || File.Exists(rating4) || File.Exists(rating5))
+			{
+				return;
+			}
+
 			//Create WebhookObject
 			var webobj = new WebhookObject();
 			if (bunifuRating1.Value == 5)

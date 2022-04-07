@@ -16,5 +16,15 @@ namespace ValorGuides
 		{
 			InitializeComponent();
 		}
+
+		private void SettingsForm_Load(object sender, EventArgs e)
+		{
+
+		}
+
+		private void siticoneButton1_Click(object sender, EventArgs e)
+		{
+			siticoneNotificationPaint1.Text = "kys fag";
+		}
 	}
 }
