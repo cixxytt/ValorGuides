@@ -1,0 +1,11 @@
+D:\Code Projects\ValorGuides\Installer\bin\Release\install.exe.config
+D:\Code Projects\ValorGuides\Installer\bin\Release\install.exe
+D:\Code Projects\ValorGuides\Installer\bin\Release\install.pdb
+D:\Code Projects\ValorGuides\Installer\bin\Release\System.Diagnostics.DiagnosticSource.xml
+D:\Code Projects\ValorGuides\Installer\obj\Release\SuperMailInstaller_BootStrapper.Step1.resources
+D:\Code Projects\ValorGuides\Installer\obj\Release\SuperMailInstaller_BootStrapper.csproj.GenerateResource.cache
+D:\Code Projects\ValorGuides\Installer\obj\Release\SuperMailInstaller_BootStrapper.csproj.CoreCompileInputs.cache
+D:\Code Projects\ValorGuides\Installer\obj\Release\SuperMailInstaller_BootStrapper.csproj.Fody.CopyLocal.cache
+D:\Code Projects\ValorGuides\Installer\obj\Release\SuperMailInstaller_BootStrapper.csproj.CopyComplete
+D:\Code Projects\ValorGuides\Installer\obj\Release\install.exe
+D:\Code Projects\ValorGuides\Installer\obj\Release\install.pdb

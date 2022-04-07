@@ -1,0 +1,12 @@
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\obj\Debug\SuperMailInstaller_BootStrapper.csproj.AssemblyReference.cache
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\obj\Debug\SuperMailInstaller_BootStrapper.csproj.CoreCompileInputs.cache
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\obj\Debug\SuperMailInstaller_BootStrapper.Step1.resources
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\obj\Debug\SuperMailInstaller_BootStrapper.csproj.GenerateResource.cache
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\obj\Debug\SuperMailInstaller_BootStrapper.csproj.Fody.CopyLocal.cache
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\obj\Debug\SuperMailInstaller_BootStrapper.csproj.CopyComplete
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\bin\Debug\install.exe.config
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\bin\Debug\install.exe
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\bin\Debug\install.pdb
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\obj\Debug\install.exe
+C:\Users\owen8\source\repos\SuperMailInstaller_BootStrapper\obj\Debug\install.pdb
