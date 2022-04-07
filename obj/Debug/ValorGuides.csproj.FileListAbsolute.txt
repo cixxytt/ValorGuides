@@ -1,0 +1,9 @@
+D:\Code Projects\ValorGuides\bin\Debug\ValorGuides.exe.config
+D:\Code Projects\ValorGuides\bin\Debug\ValorGuides.exe
+D:\Code Projects\ValorGuides\bin\Debug\ValorGuides.pdb
+D:\Code Projects\ValorGuides\obj\Debug\ValorGuides.csproj.AssemblyReference.cache
+D:\Code Projects\ValorGuides\obj\Debug\ValorGuides.Properties.Resources.resources
+D:\Code Projects\ValorGuides\obj\Debug\ValorGuides.csproj.GenerateResource.cache
+D:\Code Projects\ValorGuides\obj\Debug\ValorGuides.csproj.CoreCompileInputs.cache
+D:\Code Projects\ValorGuides\obj\Debug\ValorGuides.exe
+D:\Code Projects\ValorGuides\obj\Debug\ValorGuides.pdb

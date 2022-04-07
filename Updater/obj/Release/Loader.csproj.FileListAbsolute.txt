@@ -1,0 +1,7 @@
+D:\Code Projects\ValorGuides\Updater\bin\Release\Loader.exe.config
+D:\Code Projects\ValorGuides\Updater\bin\Release\Loader.exe
+D:\Code Projects\ValorGuides\Updater\bin\Release\Loader.pdb
+D:\Code Projects\ValorGuides\Updater\obj\Release\Loader.csproj.CoreCompileInputs.cache
+D:\Code Projects\ValorGuides\Updater\obj\Release\Loader.exe
+D:\Code Projects\ValorGuides\Updater\obj\Release\Loader.pdb
+D:\Code Projects\ValorGuides\Updater\obj\Release\Loader.csproj.AssemblyReference.cache
