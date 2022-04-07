@@ -1,0 +1,16 @@
+D:\Code Projects\ValorGuides\bin\Release\ValorGuides.exe.config
+D:\Code Projects\ValorGuides\bin\Release\ValorGuides.exe
+D:\Code Projects\ValorGuides\bin\Release\ValorGuides.pdb
+D:\Code Projects\ValorGuides\bin\Release\DiscordRPC.dll
+D:\Code Projects\ValorGuides\bin\Release\Newtonsoft.Json.dll
+D:\Code Projects\ValorGuides\bin\Release\DiscordRPC.pdb
+D:\Code Projects\ValorGuides\bin\Release\DiscordRPC.xml
+D:\Code Projects\ValorGuides\bin\Release\Newtonsoft.Json.xml
+D:\Code Projects\ValorGuides\obj\Release\ValorGuides.csproj.AssemblyReference.cache
+D:\Code Projects\ValorGuides\obj\Release\ValorGuides.Form1.resources
+D:\Code Projects\ValorGuides\obj\Release\ValorGuides.Properties.Resources.resources
+D:\Code Projects\ValorGuides\obj\Release\ValorGuides.csproj.GenerateResource.cache
+D:\Code Projects\ValorGuides\obj\Release\ValorGuides.csproj.CoreCompileInputs.cache
+D:\Code Projects\ValorGuides\obj\Release\ValorGuides.csproj.CopyComplete
+D:\Code Projects\ValorGuides\obj\Release\ValorGuides.exe
+D:\Code Projects\ValorGuides\obj\Release\ValorGuides.pdb
