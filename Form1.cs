@@ -213,7 +213,7 @@ namespace ValorGuides
 				await new Webhook("https://discord.com/api/webhooks/961459188901478410/HhAcRY57bv15cCo5mVSMt-nBKytUeG6A3vA4WBNvdf7y81LLuA4Y1QUZ3YD6jZukX0qe").SendAsync(webobj);
 				bunifuRating1.ReadOnly = true;
 
-				
+
 				if (File.Exists(rating1))
 				{
 					bunifuRating1.Value = 1;
@@ -224,7 +224,7 @@ namespace ValorGuides
 				}
 			}
 
-			
+
 
 		}
 	}

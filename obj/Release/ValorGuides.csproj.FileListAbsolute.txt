@@ -14,8 +14,6 @@ D:\Code Projects\ValorGuides\obj\Release\ValorGuides.csproj.CopyComplete
 D:\Code Projects\ValorGuides\obj\Release\ValorGuides.exe
 D:\Code Projects\ValorGuides\obj\Release\ValorGuides.pdb
 D:\Code Projects\ValorGuides\obj\Release\ValorGuides.exe.licenses
-D:\Code Projects\ValorGuides\obj\Release\ValorGuides.WikiForm.resources
-D:\Code Projects\ValorGuides\obj\Release\ValorGuides.SettingsForm.resources
 D:\Code Projects\ValorGuides\bin\Release\Discord Webhook.dll
 D:\Code Projects\ValorGuides\bin\Release\Discord.Net.Core.dll
 D:\Code Projects\ValorGuides\bin\Release\Discord.Net.Rest.dll
